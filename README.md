@@ -3,57 +3,69 @@
 ## Course: SWE 2204 - Software Metrics
 ## Instructor: Dr. Richard Kimera
 
----
-
-## 👥 GROUP MEMBERS
-
-| Name          | RegNo             | Role      |
-|---------------|-------------------|-----------|
-| [Your Name]   |                   | Team Lead |
-| MUTASIMU ALI  | 2024/BSE/121/PS   | Developer |
-| [Member 3]    | [ID]              | Developer |
-| [Member 4]    | [ID]              | Tester    |
+**Current Date:** March 1, 2026
 
 ---
 
-## 📅 CURRENT WEEK: Week 4 & Week 5
+## 👥 GROUP 10 MEMBERS
 
-| Week | Topic | Status |
-|------|-------|--------|
-| Week 4 | Goal-Question-Metric (GQM) | ✅ Done |
-| Week 5 | Empirical Investigation | ✅ Done |
-| Week 5b | Software Size | ⏳ Next |
+| # | Name | Student ID | Role |
+|---|------|------------|------|
+| 1 | SENTONGO JOSEPH MARK | 2024/BSE/121/PS | Team Lead |
+| 2 | MUTASIMU ALI | 2024/BSE/079/PS | Developer |
+| 3 | KATO HAMUZAH KIZITO | 2024/BSE/066/PS | Developer |
+| 4 | IMAMUT JULIANA | 2024/BSE/009/PS | Developer |
+| 5 | AINEMBABAZI FELIX | 2024/BSE/138/PS | Tester |
+| 6 | NALUKWAGO HADIJAH | 2024/BSE/110/PS | Documentation |
+| 7 | MUHUMUZA ISAIAH | 2023/BSE/159/PS | GitHub Manager |
+| 8 | AKANTORANA TRUST | [ID] | Quality Assurance |
 
 ---
 
-## 🎯 WEEK 4: GOAL-QUESTION-METRIC
+## 📅 PROJECT PROGRESS (As of March 1, 2026)
+
+| Week | Topic | Status | Due Date |
+|------|-------|--------|----------|
+| Week 4 | Goal-Question-Metric (GQM) | ✅ Completed | Feb 2026 |
+| Week 5 | Empirical Investigation | ✅ Completed | Feb 2026 |
+| Week 5b | Software Size | 🔄 In Progress | March 2026 |
+| Week 6 | Structural Complexity | ⏳ Upcoming | March 2026 |
+
+---
+
+## 🎯 WEEK 4: GOAL-QUESTION-METRIC (Completed)
 
 ### Goal
-> Detect fraud in less than 100 milliseconds
+> Detect fraudulent transactions in less than 100 milliseconds to prevent real-time financial losses in the banking sector.
 
-### Questions
-1. Which algorithm is faster?
-2. How many transactions per second?
-3. Does speed drop with more data?
+### Questions We Asked
+| Question | Why It Matters |
+|----------|----------------|
+| **Q1:** Which algorithm detects fraud faster? (FOR vs WHILE loop) | Banks process millions of transactions daily |
+| **Q2:** How many transactions can we process per second? | Must handle peak banking hours (10,000+ TPS) |
+| **Q3:** Does performance drop when data size increases? | System must scale with bank growth |
 
-### Metrics
-1. Execution time (milliseconds)
-2. Transactions per second
-3. Speed comparison between algorithms
+### Metrics We Defined
+| Metric | Unit | Target |
+|--------|------|--------|
+| **M1:** Execution time | milliseconds | <100ms |
+| **M2:** Transactions per second | TPS | >10,000 |
+| **M3:** Speedup factor | ratio | >1.0 |
 
+---
 
-## 🔬 WEEK 5: EMPIRICAL INVESTIGATION
+## 🔬 WEEK 5: EMPIRICAL INVESTIGATION (Completed - Feb 2026)
 
 ### What We Did
-We tested TWO algorithms to see which is faster:
+We tested two algorithms on the **same data** to see which performs better for fraud detection:
 
-**Algorithm 1: FOR Loop**
+**Algorithm A: FOR Loop**
 ```java
 for(int i = 0; i < transactions.size(); i++) {
-    // check each transaction
-}
+ //code
 int i = 0;
 while(i < transactions.size()) {
-    // check each transaction
-    i++;
+//code
 }
+
+
