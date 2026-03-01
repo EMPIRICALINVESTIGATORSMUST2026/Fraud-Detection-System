@@ -68,7 +68,8 @@ comparisons++;
 fraud.add(t);
  }
 }
-**Algorithm A: WHILE Loop**
+```
+**Algorithm B: WHILE Loop**
 ```java
 while(i < transactions.size()) {
 Transaction t = transactions.get(i);
@@ -78,5 +79,6 @@ if(t.amount > threshold && t.location.equals("Foreign")) {
 }
  i++;
 }
+```
 
 
