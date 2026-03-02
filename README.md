@@ -3,8 +3,6 @@
 ## Course: SWE 2204 - Software Metrics
 ## Instructor: Dr. Richard Kimera
 
-**Current Date:** March 1, 2026
-
 ---
 
 ## 👥 GROUP 3 MEMBERS
