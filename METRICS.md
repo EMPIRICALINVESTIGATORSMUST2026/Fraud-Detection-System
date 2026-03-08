@@ -12,7 +12,7 @@ Measurement theory ensures that the metrics we collect are well defined and mean
 ### Measurement Scale Type.
 In this Fraud detection system, we used the nominal and ratio scale.
 Entity| Scale type| Justification
-------:|:---------:|:-----------
+:------|:---------:|:-----------
 Algorithm name| Nominal|It is label used to classify the algorithm but no arithmetic can be done on it.
 Execution time| Ratio| Measured in milliseconds , has a true zero and ratios are meaningful. 
 Number of fraud transactions flagged| Ratio| It is a count. 
